@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gp.redhorse.mapper.TUserBalanceMapper">
+    <update id="updateTollAndFree" parameterType="map">
+        update t_user_balance
+        set cny        = cny + #{cny},
+            toll_amount=toll_amount + #{tollAmount},
+            free_amount=free_amount + #{freeAmount},
+            integral=integral + #{integral}
+        where user_id = #{userId}
+
+    </update>
+</mapper>
