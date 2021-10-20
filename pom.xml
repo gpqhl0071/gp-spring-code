@@ -31,6 +31,8 @@
         <module>spring-security-03</module>
         <module>spring-shiro-01</module>
         <module>spring-shiro-02</module>
+        <module>spring-boot-h2</module>
+        <module>spring-data</module>
     </modules>
 
 </project>
