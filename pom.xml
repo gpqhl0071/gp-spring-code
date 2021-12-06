@@ -33,6 +33,7 @@
         <module>spring-shiro-02</module>
         <module>spring-boot-h2</module>
         <module>spring-data</module>
+        <module>spring-boot-jdbctemplate</module>
     </modules>
 
 </project>
